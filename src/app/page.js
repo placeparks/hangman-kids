@@ -22,7 +22,7 @@ export default async function Page() {
   return (
     <>
       <div className="">
-        <h1 className="">Thank you for playing with us</h1>
+         <h1 style={{textAlign:"center", color:"white"}}>Thank you for playing with us</h1>
       
         <pre>{JSON.stringify(post, null, 2)}</pre>
       </div>
